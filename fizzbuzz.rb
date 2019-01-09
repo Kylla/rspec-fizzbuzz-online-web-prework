@@ -1,4 +1,3 @@
-require 'pry'
 
 def fizzbuzz(int)
   if int % 3 == 0 
@@ -9,8 +8,6 @@ def fizzbuzz(int)
 
   elsif int % 3 && int % 5 == 0
   "FizzBuzz"
-    
-binding.pry
     
   else 
     
